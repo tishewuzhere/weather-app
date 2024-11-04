@@ -31,7 +31,7 @@ function App() {
     fetchWeather();
   }
   return (
-   <div className='min h-screen bg-blue-100 flex justify-center items-center'>
+   <div className='min h-screen bg-[url(../public/weather-app-bg.avif)] bg-cover flex justify-center items-center '>
       <div className='bg-white p-8 rounded shadow-lg w-full max-w-md align-middle'>
         <h1 className='text-2xl font-bold mb-4 text-center'>Weather App</h1>
         <form onSubmit={handleSearch} className='mb-4'>
